@@ -1,0 +1,111 @@
+.navbar-brand img {
+    width: 50px;
+}
+
+#main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+/* HOME */
+#contacts-table {
+    max-width: 800px;
+    margin: 0 auto; /* centralizar itens */
+}
+
+#contacts-table thead { /* cabeçalho */
+    color: #FFF;
+    background-color: #007BFF;
+}
+
+.col-id { /* deixar o id negrito */
+    font-weight: bold;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+/* manuseando cor dos ícoones */
+.ckeck-icon {
+    color: #1E7E34;
+}
+
+.edit-icon {
+    color: #007BFF;
+}
+
+.delete-btn { /* estilizando o botão de delete */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-icon {
+    color: #BD2130;
+}
+
+.delete-form {
+    display: inline-block;
+}
+.actions i { /* ícones */
+    font-size: 18px;
+    margin-right: 5px;
+}
+#empty-list-text { /* quando tem a tabela vazia*/
+    text-align: center;
+}
+
+#msg { /* mensagem de exibição */
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* SHOW DE CONTATOS INDIVIDUAIS */
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold; /* elementos com classe bold tenham bold */
+}
+
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover {
+    text-decoration: none;
+}
+
+/* EDITAR FORMULÁRIO */
+#create-form, #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+
+@media(max-width: 480px) {
+
+    #home-link {
+        display: none;
+    }
+}
